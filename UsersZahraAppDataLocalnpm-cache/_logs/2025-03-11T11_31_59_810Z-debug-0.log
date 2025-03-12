@@ -1,0 +1,795 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v20.15.0
+3 silly config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config:load:file:C:\Users\Zahra\graphql3\.npmrc
+5 silly config:load:file:C:\Users\Zahra\.npmrc
+6 silly config:load:file:C:\Users\Zahra\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm uninstall particles.js tsparticles react-tsparticles
+8 verbose argv "uninstall" "particles.js" "tsparticles" "react-tsparticles"
+9 verbose logfile logs-max:10 dir:C:\Users\Zahra\graphql3\UsersZahraAppDataLocalnpm-cache\_logs\2025-03-11T11_31_59_810Z-
+10 verbose logfile C:\Users\Zahra\graphql3\UsersZahraAppDataLocalnpm-cache\_logs\2025-03-11T11_31_59_810Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify mark retired [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\basic' ]
+15 silly reify mark retired [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\engine' ]
+16 silly reify mark retired [
+16 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-attract'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-bounce'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-bubble'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-connect'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-grab'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-pause'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-push'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-remove'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-repulse'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-slow'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-trail'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-particles-attract'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-particles-collisions'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-particles-links'
+29 silly reify ]
+30 silly reify mark retired [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\move-base' ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\move-parallax'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-absorbers'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-easing-quad'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-emitters'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-emitters-shape-circle'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-emitters-shape-square'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-hex-color'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-hsl-color'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-rgb-color'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-circle'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-emoji'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-image'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-line'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-polygon'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-square'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-star'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-text'
+47 silly reify ]
+48 silly reify mark retired [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\slim' ]
+49 silly reify mark retired [
+49 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-color'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-destroy'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-life'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-opacity'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-out-modes'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-roll'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-rotate'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-size'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-stroke-color'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-tilt'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-twinkle'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-wobble'
+60 silly reify ]
+61 silly reify mark retired [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\particles.js' ]
+62 silly reify mark retired [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\react-tsparticles' ]
+63 silly reify mark retired [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\tsparticles' ]
+64 silly reify mark retired [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\tsparticles-engine' ]
+65 silly reify moves {
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\basic': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.basic-7jdzFvpM',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\engine': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.engine-cldqXjLP',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-attract': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-external-attract-a08oSTta',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-bounce': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-external-bounce-YG0BkoGK',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-bubble': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-external-bubble-00fzu6C0',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-connect': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-external-connect-QPSgtsXN',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-grab': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-external-grab-gqsIwB56',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-pause': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-external-pause-pIvUkP0G',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-push': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-external-push-F4VjDcXX',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-remove': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-external-remove-tbSzILEx',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-repulse': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-external-repulse-RpyBb2MM',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-slow': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-external-slow-IhYkCwYW',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-external-trail': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-external-trail-E1physh9',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-particles-attract': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-particles-attract-klEhQfIB',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-particles-collisions': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-particles-collisions-Eg6ElkWg',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\interaction-particles-links': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.interaction-particles-links-wVp5GWGA',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\move-base': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.move-base-2DiAqej5',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\move-parallax': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.move-parallax-Y0j8IHgI',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-absorbers': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.plugin-absorbers-uDF9xyXE',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-easing-quad': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.plugin-easing-quad-7veU7MUJ',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-emitters': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.plugin-emitters-zNnohhVj',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-emitters-shape-circle': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.plugin-emitters-shape-circle-rLllqFDo',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-emitters-shape-square': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.plugin-emitters-shape-square-PbMaoTol',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-hex-color': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.plugin-hex-color-x8yleh7E',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-hsl-color': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.plugin-hsl-color-mLHfQsep',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\plugin-rgb-color': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.plugin-rgb-color-tVyWg8oY',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-circle': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.shape-circle-Cu9sh8Iy',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-emoji': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.shape-emoji-8NfNXPcF',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-image': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.shape-image-tiziT9OG',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-line': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.shape-line-E6SlqxJN',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-polygon': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.shape-polygon-aWvAP7BQ',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-square': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.shape-square-pEOcDHVD',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-star': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.shape-star-TsWJk0Yh',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\shape-text': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.shape-text-xsJjlQiE',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\slim': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.slim-MEmotgyS',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-color': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.updater-color-cT611udO',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-destroy': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.updater-destroy-YyfjRwdm',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-life': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.updater-life-De5RxZ0S',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-opacity': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.updater-opacity-BhXVcEoh',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-out-modes': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.updater-out-modes-EvAHQljx',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-roll': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.updater-roll-e2a9G5WP',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-rotate': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.updater-rotate-3358DLhB',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-size': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.updater-size-C6ZH0CZD',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-stroke-color': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.updater-stroke-color-ExaRJU0y',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-tilt': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.updater-tilt-nlDZ2Ieo',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-twinkle': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.updater-twinkle-PFrXGxud',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\updater-wobble': 'C:\\Users\\Zahra\\graphql3\\node_modules\\@tsparticles\\.updater-wobble-Te8cYuZ0',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\particles.js': 'C:\\Users\\Zahra\\graphql3\\node_modules\\.particles.js-BqL9O3YR',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\react-tsparticles': 'C:\\Users\\Zahra\\graphql3\\node_modules\\.react-tsparticles-8cXcYwzt',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\tsparticles': 'C:\\Users\\Zahra\\graphql3\\node_modules\\.tsparticles-rPLPCwRT',
+65 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\tsparticles-engine': 'C:\\Users\\Zahra\\graphql3\\node_modules\\.tsparticles-engine-pafvWOEt'
+65 silly reify }
+66 silly audit bulk request {
+66 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+66 silly audit   '@apollo/client': [ '3.13.1' ],
+66 silly audit   '@babel/runtime': [ '7.26.9' ],
+66 silly audit   '@emnapi/runtime': [ '1.3.1' ],
+66 silly audit   '@eslint-community/eslint-utils': [ '4.4.1' ],
+66 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.0' ],
+66 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+66 silly audit   '@eslint/config-array': [ '0.19.2' ],
+66 silly audit   '@eslint/core': [ '0.12.0' ],
+66 silly audit   '@eslint/eslintrc': [ '3.3.0' ],
+66 silly audit   '@eslint/js': [ '9.21.0' ],
+66 silly audit   '@eslint/object-schema': [ '2.1.6' ],
+66 silly audit   '@eslint/plugin-kit': [ '0.2.7' ],
+66 silly audit   '@graphql-typed-document-node/core': [ '3.2.0' ],
+66 silly audit   '@humanfs/core': [ '0.19.1' ],
+66 silly audit   '@humanfs/node': [ '0.16.6' ],
+66 silly audit   '@humanwhocodes/retry': [ '0.3.1', '0.4.2' ],
+66 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+66 silly audit   '@img/sharp-darwin-arm64': [ '0.33.5' ],
+66 silly audit   '@img/sharp-darwin-x64': [ '0.33.5' ],
+66 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.0.4' ],
+66 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.0.4' ],
+66 silly audit   '@img/sharp-libvips-linux-arm': [ '1.0.5' ],
+66 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.0.4' ],
+66 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.0.4' ],
+66 silly audit   '@img/sharp-libvips-linux-x64': [ '1.0.4' ],
+66 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.0.4' ],
+66 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.0.4' ],
+66 silly audit   '@img/sharp-linux-arm': [ '0.33.5' ],
+66 silly audit   '@img/sharp-linux-arm64': [ '0.33.5' ],
+66 silly audit   '@img/sharp-linux-s390x': [ '0.33.5' ],
+66 silly audit   '@img/sharp-linux-x64': [ '0.33.5' ],
+66 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.33.5' ],
+66 silly audit   '@img/sharp-linuxmusl-x64': [ '0.33.5' ],
+66 silly audit   '@img/sharp-wasm32': [ '0.33.5' ],
+66 silly audit   '@img/sharp-win32-ia32': [ '0.33.5' ],
+66 silly audit   '@img/sharp-win32-x64': [ '0.33.5' ],
+66 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+66 silly audit   '@jridgewell/gen-mapping': [ '0.3.8' ],
+66 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+66 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+66 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+66 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+66 silly audit   '@next/env': [ '15.1.7' ],
+66 silly audit   '@next/eslint-plugin-next': [ '15.1.7' ],
+66 silly audit   '@next/swc-darwin-arm64': [ '15.1.7' ],
+66 silly audit   '@next/swc-darwin-x64': [ '15.1.7' ],
+66 silly audit   '@next/swc-linux-arm64-gnu': [ '15.1.7' ],
+66 silly audit   '@next/swc-linux-arm64-musl': [ '15.1.7' ],
+66 silly audit   '@next/swc-linux-x64-gnu': [ '15.1.7' ],
+66 silly audit   '@next/swc-linux-x64-musl': [ '15.1.7' ],
+66 silly audit   '@next/swc-win32-arm64-msvc': [ '15.1.7' ],
+66 silly audit   '@next/swc-win32-x64-msvc': [ '15.1.7' ],
+66 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+66 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+66 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+66 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+66 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+66 silly audit   '@rtsao/scc': [ '1.1.0' ],
+66 silly audit   '@rushstack/eslint-patch': [ '1.10.5' ],
+66 silly audit   '@swc/counter': [ '0.1.3' ],
+66 silly audit   '@swc/helpers': [ '0.5.15' ],
+66 silly audit   '@types/d3-array': [ '3.2.1' ],
+66 silly audit   '@types/d3-color': [ '3.1.3' ],
+66 silly audit   '@types/d3-ease': [ '3.0.2' ],
+66 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+66 silly audit   '@types/d3-path': [ '3.1.1' ],
+66 silly audit   '@types/d3-scale': [ '4.0.9' ],
+66 silly audit   '@types/d3-shape': [ '3.1.7' ],
+66 silly audit   '@types/d3-time': [ '3.0.4' ],
+66 silly audit   '@types/d3-timer': [ '3.0.2' ],
+66 silly audit   '@types/estree': [ '1.0.6' ],
+66 silly audit   '@types/json-schema': [ '7.0.15' ],
+66 silly audit   '@types/json5': [ '0.0.29' ],
+66 silly audit   '@types/node': [ '20.17.19' ],
+66 silly audit   '@types/react': [ '19.0.10' ],
+66 silly audit   '@types/react-dom': [ '19.0.4' ],
+66 silly audit   '@typescript-eslint/eslint-plugin': [ '8.24.1' ],
+66 silly audit   '@typescript-eslint/parser': [ '8.24.1' ],
+66 silly audit   '@typescript-eslint/scope-manager': [ '8.24.1' ],
+66 silly audit   '@typescript-eslint/type-utils': [ '8.24.1' ],
+66 silly audit   '@typescript-eslint/types': [ '8.24.1' ],
+66 silly audit   '@typescript-eslint/typescript-estree': [ '8.24.1' ],
+66 silly audit   'brace-expansion': [ '2.0.1', '1.1.11' ],
+66 silly audit   'fast-glob': [ '3.3.3', '3.3.1' ],
+66 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+66 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+66 silly audit   '@typescript-eslint/utils': [ '8.24.1' ],
+66 silly audit   '@typescript-eslint/visitor-keys': [ '8.24.1' ],
+66 silly audit   '@wry/caches': [ '1.0.1' ],
+66 silly audit   '@wry/context': [ '0.7.4' ],
+66 silly audit   '@wry/equality': [ '0.5.7' ],
+66 silly audit   '@wry/trie': [ '0.5.0' ],
+66 silly audit   acorn: [ '8.14.0' ],
+66 silly audit   'acorn-jsx': [ '5.3.2' ],
+66 silly audit   ajv: [ '6.12.6' ],
+66 silly audit   'ansi-regex': [ '6.1.0', '5.0.1' ],
+66 silly audit   'ansi-styles': [ '4.3.0', '6.2.1' ],
+66 silly audit   'any-promise': [ '1.3.0' ],
+66 silly audit   anymatch: [ '3.1.3' ],
+66 silly audit   arg: [ '5.0.2' ],
+66 silly audit   argparse: [ '2.0.1' ],
+66 silly audit   'aria-query': [ '5.3.2' ],
+66 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+66 silly audit   'array-includes': [ '3.1.8' ],
+66 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+66 silly audit   'array.prototype.findlastindex': [ '1.2.5' ],
+66 silly audit   'array.prototype.flat': [ '1.3.3' ],
+66 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+66 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+66 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+66 silly audit   'ast-types-flow': [ '0.0.8' ],
+66 silly audit   'async-function': [ '1.0.0' ],
+66 silly audit   'available-typed-arrays': [ '1.0.7' ],
+66 silly audit   'axe-core': [ '4.10.2' ],
+66 silly audit   'axobject-query': [ '4.1.0' ],
+66 silly audit   'balanced-match': [ '1.0.2' ],
+66 silly audit   'binary-extensions': [ '2.3.0' ],
+66 silly audit   braces: [ '3.0.3' ],
+66 silly audit   busboy: [ '1.6.0' ],
+66 silly audit   'call-bind': [ '1.0.8' ],
+66 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+66 silly audit   'call-bound': [ '1.0.3' ],
+66 silly audit   callsites: [ '3.1.0' ],
+66 silly audit   'camelcase-css': [ '2.0.1' ],
+66 silly audit   'caniuse-lite': [ '1.0.30001700' ],
+66 silly audit   chalk: [ '4.1.2' ],
+66 silly audit   chokidar: [ '3.6.0' ],
+66 silly audit   'client-only': [ '0.0.1' ],
+66 silly audit   clsx: [ '2.1.1' ],
+66 silly audit   color: [ '4.2.3' ],
+66 silly audit   'color-convert': [ '2.0.1' ],
+66 silly audit   'color-name': [ '1.1.4' ],
+66 silly audit   'color-string': [ '1.9.1' ],
+66 silly audit   commander: [ '4.1.1' ],
+66 silly audit   'concat-map': [ '0.0.1' ],
+66 silly audit   'cross-spawn': [ '7.0.6' ],
+66 silly audit   cssesc: [ '3.0.0' ],
+66 silly audit   csstype: [ '3.1.3' ],
+66 silly audit   'd3-array': [ '3.2.4' ],
+66 silly audit   'd3-color': [ '3.1.0' ],
+66 silly audit   'd3-ease': [ '3.0.1' ],
+66 silly audit   'd3-format': [ '3.1.0' ],
+66 silly audit   'd3-interpolate': [ '3.0.1' ],
+66 silly audit   'd3-path': [ '3.1.0' ],
+66 silly audit   'd3-scale': [ '4.0.2' ],
+66 silly audit   'd3-shape': [ '3.2.0' ],
+66 silly audit   'd3-time': [ '3.1.0' ],
+66 silly audit   'd3-time-format': [ '4.1.0' ],
+66 silly audit   'd3-timer': [ '3.0.1' ],
+66 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+66 silly audit   'data-view-buffer': [ '1.0.2' ],
+66 silly audit   'data-view-byte-length': [ '1.0.2' ],
+66 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+66 silly audit   debug: [ '4.4.0', '3.2.7' ],
+66 silly audit   'decimal.js-light': [ '2.5.1' ],
+66 silly audit   'deep-is': [ '0.1.4' ],
+66 silly audit   'define-data-property': [ '1.1.4' ],
+66 silly audit   'define-properties': [ '1.2.1' ],
+66 silly audit   'detect-libc': [ '2.0.3' ],
+66 silly audit   didyoumean: [ '1.2.2' ],
+66 silly audit   dlv: [ '1.1.3' ],
+66 silly audit   doctrine: [ '2.1.0' ],
+66 silly audit   'dom-helpers': [ '5.2.1' ],
+66 silly audit   'dunder-proto': [ '1.0.1' ],
+66 silly audit   eastasianwidth: [ '0.2.0' ],
+66 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+66 silly audit   'enhanced-resolve': [ '5.18.1' ],
+66 silly audit   'es-abstract': [ '1.23.9' ],
+66 silly audit   'es-define-property': [ '1.0.1' ],
+66 silly audit   'es-errors': [ '1.3.0' ],
+66 silly audit   'es-iterator-helpers': [ '1.2.1' ],
+66 silly audit   'es-object-atoms': [ '1.1.1' ],
+66 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+66 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+66 silly audit   'es-to-primitive': [ '1.3.0' ],
+66 silly audit   'escape-string-regexp': [ '4.0.0' ],
+66 silly audit   eslint: [ '9.21.0' ],
+66 silly audit   'eslint-config-next': [ '15.1.7' ],
+66 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+66 silly audit   'eslint-import-resolver-typescript': [ '3.8.3' ],
+66 silly audit   'eslint-module-utils': [ '2.12.0' ],
+66 silly audit   'eslint-plugin-import': [ '2.31.0' ],
+66 silly audit   semver: [ '6.3.1', '7.7.1' ],
+66 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+66 silly audit   'eslint-plugin-react': [ '7.37.4' ],
+66 silly audit   'eslint-plugin-react-hooks': [ '5.1.0' ],
+66 silly audit   resolve: [ '2.0.0-next.5', '1.22.10' ],
+66 silly audit   'eslint-scope': [ '8.2.0' ],
+66 silly audit   espree: [ '10.3.0' ],
+66 silly audit   esquery: [ '1.6.0' ],
+66 silly audit   esrecurse: [ '4.3.0' ],
+66 silly audit   estraverse: [ '5.3.0' ],
+66 silly audit   esutils: [ '2.0.3' ],
+66 silly audit   eventemitter3: [ '4.0.7' ],
+66 silly audit   'fast-deep-equal': [ '3.1.3' ],
+66 silly audit   'fast-equals': [ '5.2.2' ],
+66 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+66 silly audit   'fast-levenshtein': [ '2.0.6' ],
+66 silly audit   fastq: [ '1.19.0' ],
+66 silly audit   'file-entry-cache': [ '8.0.0' ],
+66 silly audit   'fill-range': [ '7.1.1' ],
+66 silly audit   'find-up': [ '5.0.0' ],
+66 silly audit   'flat-cache': [ '4.0.1' ],
+66 silly audit   flatted: [ '3.3.3' ],
+66 silly audit   'for-each': [ '0.3.5' ],
+66 silly audit   'foreground-child': [ '3.3.0' ],
+66 silly audit   fsevents: [ '2.3.3' ],
+66 silly audit   'function-bind': [ '1.1.2' ],
+66 silly audit   'function.prototype.name': [ '1.1.8' ],
+66 silly audit   'functions-have-names': [ '1.2.3' ],
+66 silly audit   'get-intrinsic': [ '1.2.7' ],
+66 silly audit   'get-proto': [ '1.0.1' ],
+66 silly audit   'get-symbol-description': [ '1.1.0' ],
+66 silly audit   'get-tsconfig': [ '4.10.0' ],
+66 silly audit   glob: [ '10.4.5' ],
+66 silly audit   globals: [ '14.0.0' ],
+66 silly audit   globalthis: [ '1.0.4' ],
+66 silly audit   gopd: [ '1.2.0' ],
+66 silly audit   'graceful-fs': [ '4.2.11' ],
+66 silly audit   graphemer: [ '1.4.0' ],
+66 silly audit   graphql: [ '16.10.0' ],
+66 silly audit   'graphql-tag': [ '2.12.6' ],
+66 silly audit   'has-bigints': [ '1.1.0' ],
+66 silly audit   'has-flag': [ '4.0.0' ],
+66 silly audit   'has-property-descriptors': [ '1.0.2' ],
+66 silly audit   'has-proto': [ '1.2.0' ],
+66 silly audit   'has-symbols': [ '1.1.0' ],
+66 silly audit   'has-tostringtag': [ '1.0.2' ],
+66 silly audit   hasown: [ '2.0.2' ],
+66 silly audit   'hoist-non-react-statics': [ '3.3.2' ],
+66 silly audit   ignore: [ '5.3.2' ],
+66 silly audit   'import-fresh': [ '3.3.1' ],
+66 silly audit   imurmurhash: [ '0.1.4' ],
+66 silly audit   'internal-slot': [ '1.1.0' ],
+66 silly audit   internmap: [ '2.0.3' ],
+66 silly audit   'is-array-buffer': [ '3.0.5' ],
+66 silly audit   'is-arrayish': [ '0.3.2' ],
+66 silly audit   'is-async-function': [ '2.1.1' ],
+66 silly audit   'is-bigint': [ '1.1.0' ],
+66 silly audit   'is-binary-path': [ '2.1.0' ],
+66 silly audit   'is-boolean-object': [ '1.2.2' ],
+66 silly audit   'is-bun-module': [ '1.3.0' ],
+66 silly audit   'is-callable': [ '1.2.7' ],
+66 silly audit   'is-core-module': [ '2.16.1' ],
+66 silly audit   'is-data-view': [ '1.0.2' ],
+66 silly audit   'is-date-object': [ '1.1.0' ],
+66 silly audit   'is-extglob': [ '2.1.1' ],
+66 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+66 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+66 silly audit   'is-generator-function': [ '1.1.0' ],
+66 silly audit   'is-glob': [ '4.0.3' ],
+66 silly audit   'is-map': [ '2.0.3' ],
+66 silly audit   'is-number': [ '7.0.0' ],
+66 silly audit   'is-number-object': [ '1.1.1' ],
+66 silly audit   'is-regex': [ '1.2.1' ],
+66 silly audit   'is-set': [ '2.0.3' ],
+66 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+66 silly audit   'is-string': [ '1.1.1' ],
+66 silly audit   'is-symbol': [ '1.1.1' ],
+66 silly audit   'is-typed-array': [ '1.1.15' ],
+66 silly audit   'is-weakmap': [ '2.0.2' ],
+66 silly audit   'is-weakref': [ '1.1.1' ],
+66 silly audit   'is-weakset': [ '2.0.4' ],
+66 silly audit   isarray: [ '2.0.5' ],
+66 silly audit   isexe: [ '2.0.0' ],
+66 silly audit   'iterator.prototype': [ '1.1.5' ],
+66 silly audit   jackspeak: [ '3.4.3' ],
+66 silly audit   jiti: [ '1.21.7' ],
+66 silly audit   'js-tokens': [ '4.0.0' ],
+66 silly audit   'js-yaml': [ '4.1.0' ],
+66 silly audit   'json-buffer': [ '3.0.1' ],
+66 silly audit   'json-schema-traverse': [ '0.4.1' ],
+66 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+66 silly audit   json5: [ '1.0.2' ],
+66 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+66 silly audit   'jwt-decode': [ '4.0.0' ],
+66 silly audit   keyv: [ '4.5.4' ],
+66 silly audit   'language-subtag-registry': [ '0.3.23' ],
+66 silly audit   'language-tags': [ '1.0.9' ],
+66 silly audit   levn: [ '0.4.1' ],
+66 silly audit   lilconfig: [ '3.1.3' ],
+66 silly audit   'lines-and-columns': [ '1.2.4' ],
+66 silly audit   'locate-path': [ '6.0.0' ],
+66 silly audit   lodash: [ '4.17.21' ],
+66 silly audit   'lodash.merge': [ '4.6.2' ],
+66 silly audit   'loose-envify': [ '1.4.0' ],
+66 silly audit   'lru-cache': [ '10.4.3' ],
+66 silly audit   'math-intrinsics': [ '1.1.0' ],
+66 silly audit   merge2: [ '1.4.1' ],
+66 silly audit   micromatch: [ '4.0.8' ],
+66 silly audit   minimist: [ '1.2.8' ],
+66 silly audit   minipass: [ '7.1.2' ],
+66 silly audit   ms: [ '2.1.3' ],
+66 silly audit   mz: [ '2.7.0' ],
+66 silly audit   nanoid: [ '3.3.8' ],
+66 silly audit   'natural-compare': [ '1.4.0' ],
+66 silly audit   next: [ '15.1.7' ],
+66 silly audit   postcss: [ '8.4.31', '8.5.3' ],
+66 silly audit   'normalize-path': [ '3.0.0' ],
+66 silly audit   'object-assign': [ '4.1.1' ],
+66 silly audit   'object-hash': [ '3.0.0' ],
+66 silly audit   'object-inspect': [ '1.13.4' ],
+66 silly audit   'object-keys': [ '1.1.1' ],
+66 silly audit   'object.assign': [ '4.1.7' ],
+66 silly audit   'object.entries': [ '1.1.8' ],
+66 silly audit   'object.fromentries': [ '2.0.8' ],
+66 silly audit   'object.groupby': [ '1.0.3' ],
+66 silly audit   'object.values': [ '1.2.1' ],
+66 silly audit   optimism: [ '0.18.1' ],
+66 silly audit   optionator: [ '0.9.4' ],
+66 silly audit   'own-keys': [ '1.0.1' ],
+66 silly audit   'p-limit': [ '3.1.0' ],
+66 silly audit   'p-locate': [ '5.0.0' ],
+66 silly audit   'package-json-from-dist': [ '1.0.1' ],
+66 silly audit   'parent-module': [ '1.0.1' ],
+66 silly audit   'path-exists': [ '4.0.0' ],
+66 silly audit   'path-key': [ '3.1.1' ],
+66 silly audit   'path-parse': [ '1.0.7' ],
+66 silly audit   'path-scurry': [ '1.11.1' ],
+66 silly audit   picocolors: [ '1.1.1' ],
+66 silly audit   picomatch: [ '2.3.1', '4.0.2' ],
+66 silly audit   pify: [ '2.3.0' ],
+66 silly audit   pirates: [ '4.0.6' ],
+66 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+66 silly audit   'postcss-import': [ '15.1.0' ],
+66 silly audit   'postcss-js': [ '4.0.1' ],
+66 silly audit   'postcss-load-config': [ '4.0.2' ],
+66 silly audit   'postcss-nested': [ '6.2.0' ],
+66 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+66 silly audit   'postcss-value-parser': [ '4.2.0' ],
+66 silly audit   'prelude-ls': [ '1.2.1' ],
+66 silly audit   'prop-types': [ '15.8.1' ],
+66 silly audit   punycode: [ '2.3.1' ],
+66 silly audit   'queue-microtask': [ '1.2.3' ],
+66 silly audit   react: [ '19.0.0' ],
+66 silly audit   'react-dom': [ '19.0.0' ],
+66 silly audit   'react-is': [ '16.13.1', '18.3.1' ],
+66 silly audit   'react-smooth': [ '4.0.4' ],
+66 silly audit   'react-transition-group': [ '4.4.5' ],
+66 silly audit   'read-cache': [ '1.0.0' ],
+66 silly audit   readdirp: [ '3.6.0' ],
+66 silly audit   recharts: [ '2.15.1' ],
+66 silly audit   'recharts-scale': [ '0.4.5' ],
+66 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+66 silly audit   'regenerator-runtime': [ '0.14.1' ],
+66 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+66 silly audit   rehackt: [ '0.1.0' ],
+66 silly audit   'resolve-from': [ '4.0.0' ],
+66 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+66 silly audit   reusify: [ '1.0.4' ],
+66 silly audit   'run-parallel': [ '1.2.0' ],
+66 silly audit   'safe-array-concat': [ '1.1.3' ],
+66 silly audit   'safe-push-apply': [ '1.0.0' ],
+66 silly audit   'safe-regex-test': [ '1.1.0' ],
+66 silly audit   scheduler: [ '0.25.0' ],
+66 silly audit   'set-function-length': [ '1.2.2' ],
+66 silly audit   'set-function-name': [ '2.0.2' ],
+66 silly audit   'set-proto': [ '1.0.0' ],
+66 silly audit   sharp: [ '0.33.5' ],
+66 silly audit   'shebang-command': [ '2.0.0' ],
+66 silly audit   'shebang-regex': [ '3.0.0' ],
+66 silly audit   'side-channel': [ '1.1.0' ],
+66 silly audit   'side-channel-list': [ '1.0.0' ],
+66 silly audit   'side-channel-map': [ '1.0.1' ],
+66 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+66 silly audit   'signal-exit': [ '4.1.0' ],
+66 silly audit   'simple-swizzle': [ '0.2.2' ],
+66 silly audit   'source-map-js': [ '1.2.1' ],
+66 silly audit   'stable-hash': [ '0.0.4' ],
+66 silly audit   streamsearch: [ '1.1.0' ],
+66 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+66 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+66 silly audit   'string.prototype.includes': [ '2.0.1' ],
+66 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+66 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+66 silly audit   'string.prototype.trim': [ '1.2.10' ],
+66 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+66 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+66 silly audit   'strip-bom': [ '3.0.0' ],
+66 silly audit   'strip-json-comments': [ '3.1.1' ],
+66 silly audit   'styled-jsx': [ '5.1.6' ],
+66 silly audit   sucrase: [ '3.35.0' ],
+66 silly audit   'supports-color': [ '7.2.0' ],
+66 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+66 silly audit   'symbol-observable': [ '4.0.0' ],
+66 silly audit   tailwindcss: [ '3.4.17' ],
+66 silly audit   tapable: [ '2.2.1' ],
+66 silly audit   thenify: [ '3.3.1' ],
+66 silly audit   'thenify-all': [ '1.6.0' ],
+66 silly audit   'tiny-invariant': [ '1.3.3' ],
+66 silly audit   tinyglobby: [ '0.2.12' ],
+66 silly audit   fdir: [ '6.4.3' ],
+66 silly audit   'to-regex-range': [ '5.0.1' ],
+66 silly audit   'ts-api-utils': [ '2.0.1' ],
+66 silly audit   'ts-interface-checker': [ '0.1.13' ],
+66 silly audit   'ts-invariant': [ '0.10.3' ],
+66 silly audit   'tsconfig-paths': [ '3.15.0' ],
+66 silly audit   tslib: [ '2.8.1' ],
+66 silly audit   'type-check': [ '0.4.0' ],
+66 silly audit   'typed-array-buffer': [ '1.0.3' ],
+66 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+66 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+66 silly audit   'typed-array-length': [ '1.0.7' ],
+66 silly audit   typescript: [ '5.7.3' ],
+66 silly audit   'unbox-primitive': [ '1.1.0' ],
+66 silly audit   'undici-types': [ '6.19.8' ],
+66 silly audit   'uri-js': [ '4.4.1' ],
+66 silly audit   'util-deprecate': [ '1.0.2' ],
+66 silly audit   'victory-vendor': [ '36.9.2' ],
+66 silly audit   which: [ '2.0.2' ],
+66 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+66 silly audit   'which-builtin-type': [ '1.2.1' ],
+66 silly audit   'which-collection': [ '1.0.2' ],
+66 silly audit   'which-typed-array': [ '1.1.18' ],
+66 silly audit   'word-wrap': [ '1.2.5' ],
+66 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+66 silly audit   yaml: [ '2.7.0' ],
+66 silly audit   'yocto-queue': [ '0.1.0' ],
+66 silly audit   'zen-observable': [ '0.8.15' ],
+66 silly audit   'zen-observable-ts': [ '1.2.5' ]
+66 silly audit }
+67 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\fsevents
+68 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\fsevents' ]
+69 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-win32-arm64-msvc
+70 silly reify mark deleted [
+70 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-win32-arm64-msvc'
+70 silly reify ]
+71 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-linux-x64-musl
+72 silly reify mark deleted [
+72 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-linux-x64-musl'
+72 silly reify ]
+73 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-linux-x64-gnu
+74 silly reify mark deleted [
+74 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-linux-x64-gnu'
+74 silly reify ]
+75 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-linux-arm64-musl
+76 silly reify mark deleted [
+76 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-linux-arm64-musl'
+76 silly reify ]
+77 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-linux-arm64-gnu
+78 silly reify mark deleted [
+78 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-linux-arm64-gnu'
+78 silly reify ]
+79 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-darwin-x64
+80 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-darwin-x64' ]
+81 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-darwin-arm64
+82 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-darwin-arm64' ]
+83 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-win32-ia32
+84 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-win32-ia32' ]
+85 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-wasm32
+86 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-wasm32' ]
+87 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@emnapi\runtime
+88 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@emnapi\\runtime' ]
+89 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-linuxmusl-x64
+90 silly reify mark deleted [
+90 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-linuxmusl-x64'
+90 silly reify ]
+91 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-linuxmusl-arm64
+92 silly reify mark deleted [
+92 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-linuxmusl-arm64'
+92 silly reify ]
+93 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-linux-x64
+94 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-linux-x64' ]
+95 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-linux-s390x
+96 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-linux-s390x' ]
+97 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-linux-arm64
+98 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-linux-arm64' ]
+99 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-linux-arm
+100 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-linux-arm' ]
+101 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-linuxmusl-x64
+102 silly reify mark deleted [
+102 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+102 silly reify ]
+103 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-linuxmusl-arm64
+104 silly reify mark deleted [
+104 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+104 silly reify ]
+105 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-linux-x64
+106 silly reify mark deleted [
+106 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-linux-x64'
+106 silly reify ]
+107 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-linux-s390x
+108 silly reify mark deleted [
+108 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-linux-s390x'
+108 silly reify ]
+109 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-linux-arm64
+110 silly reify mark deleted [
+110 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-linux-arm64'
+110 silly reify ]
+111 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-linux-arm
+112 silly reify mark deleted [
+112 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-linux-arm'
+112 silly reify ]
+113 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-darwin-x64
+114 silly reify mark deleted [
+114 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-darwin-x64'
+114 silly reify ]
+115 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-darwin-arm64
+116 silly reify mark deleted [
+116 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+116 silly reify ]
+117 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-darwin-x64
+118 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-darwin-x64' ]
+119 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-darwin-arm64
+120 silly reify mark deleted [
+120 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-darwin-arm64'
+120 silly reify ]
+121 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 881ms
+122 silly audit report {}
+123 silly ADD
+124 silly ADD
+125 silly ADD
+126 silly ADD
+127 silly ADD
+128 silly ADD
+129 silly ADD
+130 silly ADD
+131 silly ADD
+132 silly ADD
+133 silly ADD
+134 silly ADD
+135 silly ADD
+136 silly ADD
+137 silly ADD
+138 silly ADD
+139 silly ADD
+140 silly ADD
+141 silly ADD
+142 silly ADD
+143 silly ADD
+144 silly ADD
+145 silly ADD
+146 silly ADD
+147 silly ADD
+148 silly ADD
+149 silly ADD
+150 silly REMOVE node_modules/tsparticles-engine
+151 silly REMOVE node_modules/tsparticles
+152 silly REMOVE node_modules/react-tsparticles
+153 silly REMOVE node_modules/particles.js
+154 silly REMOVE node_modules/@tsparticles/updater-wobble
+155 silly REMOVE node_modules/@tsparticles/updater-twinkle
+156 silly REMOVE node_modules/@tsparticles/updater-tilt
+157 silly REMOVE node_modules/@tsparticles/updater-stroke-color
+158 silly REMOVE node_modules/@tsparticles/updater-size
+159 silly REMOVE node_modules/@tsparticles/updater-rotate
+160 silly REMOVE node_modules/@tsparticles/updater-roll
+161 silly REMOVE node_modules/@tsparticles/updater-out-modes
+162 silly REMOVE node_modules/@tsparticles/updater-opacity
+163 silly REMOVE node_modules/@tsparticles/updater-life
+164 silly REMOVE node_modules/@tsparticles/updater-destroy
+165 silly REMOVE node_modules/@tsparticles/updater-color
+166 silly REMOVE node_modules/@tsparticles/slim
+167 silly REMOVE node_modules/@tsparticles/shape-text
+168 silly REMOVE node_modules/@tsparticles/shape-star
+169 silly REMOVE node_modules/@tsparticles/shape-square
+170 silly REMOVE node_modules/@tsparticles/shape-polygon
+171 silly REMOVE node_modules/@tsparticles/shape-line
+172 silly REMOVE node_modules/@tsparticles/shape-image
+173 silly REMOVE node_modules/@tsparticles/shape-emoji
+174 silly REMOVE node_modules/@tsparticles/shape-circle
+175 silly REMOVE node_modules/@tsparticles/plugin-rgb-color
+176 silly REMOVE node_modules/@tsparticles/plugin-hsl-color
+177 silly REMOVE node_modules/@tsparticles/plugin-hex-color
+178 silly REMOVE node_modules/@tsparticles/plugin-emitters-shape-square
+179 silly REMOVE node_modules/@tsparticles/plugin-emitters-shape-circle
+180 silly REMOVE node_modules/@tsparticles/plugin-emitters
+181 silly REMOVE node_modules/@tsparticles/plugin-easing-quad
+182 silly REMOVE node_modules/@tsparticles/plugin-absorbers
+183 silly REMOVE node_modules/@tsparticles/move-parallax
+184 silly REMOVE node_modules/@tsparticles/move-base
+185 silly REMOVE node_modules/@tsparticles/interaction-particles-links
+186 silly REMOVE node_modules/@tsparticles/interaction-particles-collisions
+187 silly REMOVE node_modules/@tsparticles/interaction-particles-attract
+188 silly REMOVE node_modules/@tsparticles/interaction-external-trail
+189 silly REMOVE node_modules/@tsparticles/interaction-external-slow
+190 silly REMOVE node_modules/@tsparticles/interaction-external-repulse
+191 silly REMOVE node_modules/@tsparticles/interaction-external-remove
+192 silly REMOVE node_modules/@tsparticles/interaction-external-push
+193 silly REMOVE node_modules/@tsparticles/interaction-external-pause
+194 silly REMOVE node_modules/@tsparticles/interaction-external-grab
+195 silly REMOVE node_modules/@tsparticles/interaction-external-connect
+196 silly REMOVE node_modules/@tsparticles/interaction-external-bubble
+197 silly REMOVE node_modules/@tsparticles/interaction-external-bounce
+198 silly REMOVE node_modules/@tsparticles/interaction-external-attract
+199 silly REMOVE node_modules/@tsparticles/engine
+200 silly REMOVE node_modules/@tsparticles/basic
+201 verbose exit 0
+202 info ok

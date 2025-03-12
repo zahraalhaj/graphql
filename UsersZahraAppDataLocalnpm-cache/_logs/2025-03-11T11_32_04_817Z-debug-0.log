@@ -1,0 +1,748 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v20.15.0
+3 silly config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config:load:file:C:\Users\Zahra\graphql3\.npmrc
+5 silly config:load:file:C:\Users\Zahra\.npmrc
+6 silly config:load:file:C:\Users\Zahra\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @tsparticles/react @tsparticles/slim
+8 verbose argv "install" "@tsparticles/react" "@tsparticles/slim"
+9 verbose logfile logs-max:10 dir:C:\Users\Zahra\graphql3\UsersZahraAppDataLocalnpm-cache\_logs\2025-03-11T11_32_04_817Z-
+10 verbose logfile C:\Users\Zahra\graphql3\UsersZahraAppDataLocalnpm-cache\_logs\2025-03-11T11_32_04_817Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @tsparticles/react@*
+15 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2freact 1830ms (cache miss)
+16 silly fetch manifest @tsparticles/engine@^3.0.2
+17 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fengine 21ms (cache hit)
+18 silly fetch manifest react@^19.0.0
+19 http fetch GET 200 https://registry.npmjs.org/react 43ms (cache hit)
+20 silly fetch manifest react-dom@^19.0.0
+21 http fetch GET 200 https://registry.npmjs.org/react-dom 553ms (cache updated)
+22 silly fetch manifest @tsparticles/slim@*
+23 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fslim 32ms (cache hit)
+24 silly placeDep ROOT @tsparticles/react@3.0.0 OK for: graphql3@0.1.0 want: *
+25 silly placeDep ROOT @tsparticles/engine@3.8.1 OK for: @tsparticles/react@3.0.0 want: ^3.0.2
+26 silly placeDep ROOT @tsparticles/slim@3.8.1 OK for: graphql3@0.1.0 want: *
+27 silly fetch manifest @tsparticles/basic@3.8.1
+28 silly fetch manifest @tsparticles/interaction-external-attract@3.8.1
+29 silly fetch manifest @tsparticles/interaction-external-bounce@3.8.1
+30 silly fetch manifest @tsparticles/interaction-external-bubble@3.8.1
+31 silly fetch manifest @tsparticles/interaction-external-connect@3.8.1
+32 silly fetch manifest @tsparticles/interaction-external-grab@3.8.1
+33 silly fetch manifest @tsparticles/interaction-external-pause@3.8.1
+34 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fbasic 43ms (cache hit)
+35 silly fetch manifest @tsparticles/interaction-external-push@3.8.1
+36 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-connect 42ms (cache hit)
+37 silly fetch manifest @tsparticles/interaction-external-remove@3.8.1
+38 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-attract 50ms (cache hit)
+39 silly fetch manifest @tsparticles/interaction-external-repulse@3.8.1
+40 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-bubble 68ms (cache hit)
+41 silly fetch manifest @tsparticles/interaction-external-slow@3.8.1
+42 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-bounce 74ms (cache hit)
+43 silly fetch manifest @tsparticles/interaction-particles-attract@3.8.1
+44 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-pause 73ms (cache hit)
+45 silly fetch manifest @tsparticles/interaction-particles-collisions@3.8.1
+46 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-grab 78ms (cache hit)
+47 silly fetch manifest @tsparticles/interaction-particles-links@3.8.1
+48 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-push 68ms (cache hit)
+49 silly fetch manifest @tsparticles/move-parallax@3.8.1
+50 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-remove 69ms (cache hit)
+51 silly fetch manifest @tsparticles/plugin-easing-quad@3.8.1
+52 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-slow 46ms (cache hit)
+53 silly fetch manifest @tsparticles/shape-emoji@3.8.1
+54 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-external-repulse 68ms (cache hit)
+55 silly fetch manifest @tsparticles/shape-image@3.8.1
+56 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-particles-attract 49ms (cache hit)
+57 silly fetch manifest @tsparticles/shape-line@3.8.1
+58 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-particles-collisions 56ms (cache hit)
+59 silly fetch manifest @tsparticles/shape-polygon@3.8.1
+60 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2finteraction-particles-links 63ms (cache hit)
+61 silly fetch manifest @tsparticles/shape-square@3.8.1
+62 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fplugin-easing-quad 61ms (cache hit)
+63 silly fetch manifest @tsparticles/shape-star@3.8.1
+64 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-line 56ms (cache hit)
+65 silly fetch manifest @tsparticles/updater-life@3.8.1
+66 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-emoji 68ms (cache hit)
+67 silly fetch manifest @tsparticles/updater-rotate@3.8.1
+68 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-image 71ms (cache hit)
+69 silly fetch manifest @tsparticles/updater-stroke-color@3.8.1
+70 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fmove-parallax 85ms (cache hit)
+71 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-polygon 64ms (cache hit)
+72 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-square 57ms (cache hit)
+73 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-life 41ms (cache hit)
+74 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-star 51ms (cache hit)
+75 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-rotate 43ms (cache hit)
+76 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-stroke-color 37ms (cache hit)
+77 silly placeDep ROOT @tsparticles/basic@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+78 silly placeDep ROOT @tsparticles/interaction-external-attract@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+79 silly placeDep ROOT @tsparticles/interaction-external-bounce@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+80 silly placeDep ROOT @tsparticles/interaction-external-bubble@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+81 silly placeDep ROOT @tsparticles/interaction-external-connect@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+82 silly placeDep ROOT @tsparticles/interaction-external-grab@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+83 silly placeDep ROOT @tsparticles/interaction-external-pause@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+84 silly placeDep ROOT @tsparticles/interaction-external-push@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+85 silly placeDep ROOT @tsparticles/interaction-external-remove@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+86 silly placeDep ROOT @tsparticles/interaction-external-repulse@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+87 silly placeDep ROOT @tsparticles/interaction-external-slow@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+88 silly placeDep ROOT @tsparticles/interaction-particles-attract@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+89 silly placeDep ROOT @tsparticles/interaction-particles-collisions@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+90 silly placeDep ROOT @tsparticles/interaction-particles-links@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+91 silly placeDep ROOT @tsparticles/move-parallax@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+92 silly placeDep ROOT @tsparticles/plugin-easing-quad@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+93 silly placeDep ROOT @tsparticles/shape-emoji@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+94 silly placeDep ROOT @tsparticles/shape-image@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+95 silly placeDep ROOT @tsparticles/shape-line@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+96 silly placeDep ROOT @tsparticles/shape-polygon@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+97 silly placeDep ROOT @tsparticles/shape-square@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+98 silly placeDep ROOT @tsparticles/shape-star@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+99 silly placeDep ROOT @tsparticles/updater-life@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+100 silly placeDep ROOT @tsparticles/updater-rotate@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+101 silly placeDep ROOT @tsparticles/updater-stroke-color@3.8.1 OK for: @tsparticles/slim@3.8.1 want: 3.8.1
+102 silly fetch manifest @tsparticles/move-base@3.8.1
+103 silly fetch manifest @tsparticles/plugin-hex-color@3.8.1
+104 silly fetch manifest @tsparticles/plugin-hsl-color@3.8.1
+105 silly fetch manifest @tsparticles/plugin-rgb-color@3.8.1
+106 silly fetch manifest @tsparticles/shape-circle@3.8.1
+107 silly fetch manifest @tsparticles/updater-color@3.8.1
+108 silly fetch manifest @tsparticles/updater-opacity@3.8.1
+109 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fplugin-hsl-color 31ms (cache hit)
+110 silly fetch manifest @tsparticles/updater-out-modes@3.8.1
+111 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fplugin-hex-color 36ms (cache hit)
+112 silly fetch manifest @tsparticles/updater-size@3.8.1
+113 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fshape-circle 37ms (cache hit)
+114 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fplugin-rgb-color 40ms (cache hit)
+115 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fmove-base 45ms (cache hit)
+116 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-color 42ms (cache hit)
+117 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-opacity 45ms (cache hit)
+118 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-size 26ms (cache hit)
+119 http fetch GET 200 https://registry.npmjs.org/@tsparticles%2fupdater-out-modes 33ms (cache hit)
+120 silly placeDep ROOT @tsparticles/move-base@3.8.1 OK for: @tsparticles/basic@3.8.1 want: 3.8.1
+121 silly placeDep ROOT @tsparticles/plugin-hex-color@3.8.1 OK for: @tsparticles/basic@3.8.1 want: 3.8.1
+122 silly placeDep ROOT @tsparticles/plugin-hsl-color@3.8.1 OK for: @tsparticles/basic@3.8.1 want: 3.8.1
+123 silly placeDep ROOT @tsparticles/plugin-rgb-color@3.8.1 OK for: @tsparticles/basic@3.8.1 want: 3.8.1
+124 silly placeDep ROOT @tsparticles/shape-circle@3.8.1 OK for: @tsparticles/basic@3.8.1 want: 3.8.1
+125 silly placeDep ROOT @tsparticles/updater-color@3.8.1 OK for: @tsparticles/basic@3.8.1 want: 3.8.1
+126 silly placeDep ROOT @tsparticles/updater-opacity@3.8.1 OK for: @tsparticles/basic@3.8.1 want: 3.8.1
+127 silly placeDep ROOT @tsparticles/updater-out-modes@3.8.1 OK for: @tsparticles/basic@3.8.1 want: 3.8.1
+128 silly placeDep ROOT @tsparticles/updater-size@3.8.1 OK for: @tsparticles/basic@3.8.1 want: 3.8.1
+129 silly reify moves {}
+130 silly audit bulk request {
+130 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+130 silly audit   '@apollo/client': [ '3.13.1' ],
+130 silly audit   '@babel/runtime': [ '7.26.9' ],
+130 silly audit   '@emnapi/runtime': [ '1.3.1' ],
+130 silly audit   '@eslint-community/eslint-utils': [ '4.4.1' ],
+130 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.0' ],
+130 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+130 silly audit   '@eslint/config-array': [ '0.19.2' ],
+130 silly audit   '@eslint/core': [ '0.12.0' ],
+130 silly audit   '@eslint/eslintrc': [ '3.3.0' ],
+130 silly audit   '@eslint/js': [ '9.21.0' ],
+130 silly audit   '@eslint/object-schema': [ '2.1.6' ],
+130 silly audit   '@eslint/plugin-kit': [ '0.2.7' ],
+130 silly audit   '@graphql-typed-document-node/core': [ '3.2.0' ],
+130 silly audit   '@humanfs/core': [ '0.19.1' ],
+130 silly audit   '@humanfs/node': [ '0.16.6' ],
+130 silly audit   '@humanwhocodes/retry': [ '0.3.1', '0.4.2' ],
+130 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+130 silly audit   '@img/sharp-darwin-arm64': [ '0.33.5' ],
+130 silly audit   '@img/sharp-darwin-x64': [ '0.33.5' ],
+130 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.0.4' ],
+130 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.0.4' ],
+130 silly audit   '@img/sharp-libvips-linux-arm': [ '1.0.5' ],
+130 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.0.4' ],
+130 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.0.4' ],
+130 silly audit   '@img/sharp-libvips-linux-x64': [ '1.0.4' ],
+130 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.0.4' ],
+130 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.0.4' ],
+130 silly audit   '@img/sharp-linux-arm': [ '0.33.5' ],
+130 silly audit   '@img/sharp-linux-arm64': [ '0.33.5' ],
+130 silly audit   '@img/sharp-linux-s390x': [ '0.33.5' ],
+130 silly audit   '@img/sharp-linux-x64': [ '0.33.5' ],
+130 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.33.5' ],
+130 silly audit   '@img/sharp-linuxmusl-x64': [ '0.33.5' ],
+130 silly audit   '@img/sharp-wasm32': [ '0.33.5' ],
+130 silly audit   '@img/sharp-win32-ia32': [ '0.33.5' ],
+130 silly audit   '@img/sharp-win32-x64': [ '0.33.5' ],
+130 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+130 silly audit   '@jridgewell/gen-mapping': [ '0.3.8' ],
+130 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+130 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+130 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+130 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+130 silly audit   '@next/env': [ '15.1.7' ],
+130 silly audit   '@next/eslint-plugin-next': [ '15.1.7' ],
+130 silly audit   '@next/swc-darwin-arm64': [ '15.1.7' ],
+130 silly audit   '@next/swc-darwin-x64': [ '15.1.7' ],
+130 silly audit   '@next/swc-linux-arm64-gnu': [ '15.1.7' ],
+130 silly audit   '@next/swc-linux-arm64-musl': [ '15.1.7' ],
+130 silly audit   '@next/swc-linux-x64-gnu': [ '15.1.7' ],
+130 silly audit   '@next/swc-linux-x64-musl': [ '15.1.7' ],
+130 silly audit   '@next/swc-win32-arm64-msvc': [ '15.1.7' ],
+130 silly audit   '@next/swc-win32-x64-msvc': [ '15.1.7' ],
+130 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+130 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+130 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+130 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+130 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+130 silly audit   '@rtsao/scc': [ '1.1.0' ],
+130 silly audit   '@rushstack/eslint-patch': [ '1.10.5' ],
+130 silly audit   '@swc/counter': [ '0.1.3' ],
+130 silly audit   '@swc/helpers': [ '0.5.15' ],
+130 silly audit   '@types/d3-array': [ '3.2.1' ],
+130 silly audit   '@types/d3-color': [ '3.1.3' ],
+130 silly audit   '@types/d3-ease': [ '3.0.2' ],
+130 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+130 silly audit   '@types/d3-path': [ '3.1.1' ],
+130 silly audit   '@types/d3-scale': [ '4.0.9' ],
+130 silly audit   '@types/d3-shape': [ '3.1.7' ],
+130 silly audit   '@types/d3-time': [ '3.0.4' ],
+130 silly audit   '@types/d3-timer': [ '3.0.2' ],
+130 silly audit   '@types/estree': [ '1.0.6' ],
+130 silly audit   '@types/json-schema': [ '7.0.15' ],
+130 silly audit   '@types/json5': [ '0.0.29' ],
+130 silly audit   '@types/node': [ '20.17.19' ],
+130 silly audit   '@types/react': [ '19.0.10' ],
+130 silly audit   '@types/react-dom': [ '19.0.4' ],
+130 silly audit   '@typescript-eslint/eslint-plugin': [ '8.24.1' ],
+130 silly audit   '@typescript-eslint/parser': [ '8.24.1' ],
+130 silly audit   '@typescript-eslint/scope-manager': [ '8.24.1' ],
+130 silly audit   '@typescript-eslint/type-utils': [ '8.24.1' ],
+130 silly audit   '@typescript-eslint/types': [ '8.24.1' ],
+130 silly audit   '@typescript-eslint/typescript-estree': [ '8.24.1' ],
+130 silly audit   'brace-expansion': [ '2.0.1', '1.1.11' ],
+130 silly audit   'fast-glob': [ '3.3.3', '3.3.1' ],
+130 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+130 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+130 silly audit   '@typescript-eslint/utils': [ '8.24.1' ],
+130 silly audit   '@typescript-eslint/visitor-keys': [ '8.24.1' ],
+130 silly audit   '@wry/caches': [ '1.0.1' ],
+130 silly audit   '@wry/context': [ '0.7.4' ],
+130 silly audit   '@wry/equality': [ '0.5.7' ],
+130 silly audit   '@wry/trie': [ '0.5.0' ],
+130 silly audit   acorn: [ '8.14.0' ],
+130 silly audit   'acorn-jsx': [ '5.3.2' ],
+130 silly audit   ajv: [ '6.12.6' ],
+130 silly audit   'ansi-regex': [ '6.1.0', '5.0.1' ],
+130 silly audit   'ansi-styles': [ '4.3.0', '6.2.1' ],
+130 silly audit   'any-promise': [ '1.3.0' ],
+130 silly audit   anymatch: [ '3.1.3' ],
+130 silly audit   arg: [ '5.0.2' ],
+130 silly audit   argparse: [ '2.0.1' ],
+130 silly audit   'aria-query': [ '5.3.2' ],
+130 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+130 silly audit   'array-includes': [ '3.1.8' ],
+130 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+130 silly audit   'array.prototype.findlastindex': [ '1.2.5' ],
+130 silly audit   'array.prototype.flat': [ '1.3.3' ],
+130 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+130 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+130 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+130 silly audit   'ast-types-flow': [ '0.0.8' ],
+130 silly audit   'async-function': [ '1.0.0' ],
+130 silly audit   'available-typed-arrays': [ '1.0.7' ],
+130 silly audit   'axe-core': [ '4.10.2' ],
+130 silly audit   'axobject-query': [ '4.1.0' ],
+130 silly audit   'balanced-match': [ '1.0.2' ],
+130 silly audit   'binary-extensions': [ '2.3.0' ],
+130 silly audit   braces: [ '3.0.3' ],
+130 silly audit   busboy: [ '1.6.0' ],
+130 silly audit   'call-bind': [ '1.0.8' ],
+130 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+130 silly audit   'call-bound': [ '1.0.3' ],
+130 silly audit   callsites: [ '3.1.0' ],
+130 silly audit   'camelcase-css': [ '2.0.1' ],
+130 silly audit   'caniuse-lite': [ '1.0.30001700' ],
+130 silly audit   chalk: [ '4.1.2' ],
+130 silly audit   chokidar: [ '3.6.0' ],
+130 silly audit   'client-only': [ '0.0.1' ],
+130 silly audit   clsx: [ '2.1.1' ],
+130 silly audit   color: [ '4.2.3' ],
+130 silly audit   'color-convert': [ '2.0.1' ],
+130 silly audit   'color-name': [ '1.1.4' ],
+130 silly audit   'color-string': [ '1.9.1' ],
+130 silly audit   commander: [ '4.1.1' ],
+130 silly audit   'concat-map': [ '0.0.1' ],
+130 silly audit   'cross-spawn': [ '7.0.6' ],
+130 silly audit   cssesc: [ '3.0.0' ],
+130 silly audit   csstype: [ '3.1.3' ],
+130 silly audit   'd3-array': [ '3.2.4' ],
+130 silly audit   'd3-color': [ '3.1.0' ],
+130 silly audit   'd3-ease': [ '3.0.1' ],
+130 silly audit   'd3-format': [ '3.1.0' ],
+130 silly audit   'd3-interpolate': [ '3.0.1' ],
+130 silly audit   'd3-path': [ '3.1.0' ],
+130 silly audit   'd3-scale': [ '4.0.2' ],
+130 silly audit   'd3-shape': [ '3.2.0' ],
+130 silly audit   'd3-time': [ '3.1.0' ],
+130 silly audit   'd3-time-format': [ '4.1.0' ],
+130 silly audit   'd3-timer': [ '3.0.1' ],
+130 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+130 silly audit   'data-view-buffer': [ '1.0.2' ],
+130 silly audit   'data-view-byte-length': [ '1.0.2' ],
+130 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+130 silly audit   debug: [ '4.4.0', '3.2.7' ],
+130 silly audit   'decimal.js-light': [ '2.5.1' ],
+130 silly audit   'deep-is': [ '0.1.4' ],
+130 silly audit   'define-data-property': [ '1.1.4' ],
+130 silly audit   'define-properties': [ '1.2.1' ],
+130 silly audit   'detect-libc': [ '2.0.3' ],
+130 silly audit   didyoumean: [ '1.2.2' ],
+130 silly audit   dlv: [ '1.1.3' ],
+130 silly audit   doctrine: [ '2.1.0' ],
+130 silly audit   'dom-helpers': [ '5.2.1' ],
+130 silly audit   'dunder-proto': [ '1.0.1' ],
+130 silly audit   eastasianwidth: [ '0.2.0' ],
+130 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+130 silly audit   'enhanced-resolve': [ '5.18.1' ],
+130 silly audit   'es-abstract': [ '1.23.9' ],
+130 silly audit   'es-define-property': [ '1.0.1' ],
+130 silly audit   'es-errors': [ '1.3.0' ],
+130 silly audit   'es-iterator-helpers': [ '1.2.1' ],
+130 silly audit   'es-object-atoms': [ '1.1.1' ],
+130 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+130 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+130 silly audit   'es-to-primitive': [ '1.3.0' ],
+130 silly audit   'escape-string-regexp': [ '4.0.0' ],
+130 silly audit   eslint: [ '9.21.0' ],
+130 silly audit   'eslint-config-next': [ '15.1.7' ],
+130 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+130 silly audit   'eslint-import-resolver-typescript': [ '3.8.3' ],
+130 silly audit   'eslint-module-utils': [ '2.12.0' ],
+130 silly audit   'eslint-plugin-import': [ '2.31.0' ],
+130 silly audit   semver: [ '6.3.1', '7.7.1' ],
+130 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+130 silly audit   'eslint-plugin-react': [ '7.37.4' ],
+130 silly audit   'eslint-plugin-react-hooks': [ '5.1.0' ],
+130 silly audit   resolve: [ '2.0.0-next.5', '1.22.10' ],
+130 silly audit   'eslint-scope': [ '8.2.0' ],
+130 silly audit   espree: [ '10.3.0' ],
+130 silly audit   esquery: [ '1.6.0' ],
+130 silly audit   esrecurse: [ '4.3.0' ],
+130 silly audit   estraverse: [ '5.3.0' ],
+130 silly audit   esutils: [ '2.0.3' ],
+130 silly audit   eventemitter3: [ '4.0.7' ],
+130 silly audit   'fast-deep-equal': [ '3.1.3' ],
+130 silly audit   'fast-equals': [ '5.2.2' ],
+130 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+130 silly audit   'fast-levenshtein': [ '2.0.6' ],
+130 silly audit   fastq: [ '1.19.0' ],
+130 silly audit   'file-entry-cache': [ '8.0.0' ],
+130 silly audit   'fill-range': [ '7.1.1' ],
+130 silly audit   'find-up': [ '5.0.0' ],
+130 silly audit   'flat-cache': [ '4.0.1' ],
+130 silly audit   flatted: [ '3.3.3' ],
+130 silly audit   'for-each': [ '0.3.5' ],
+130 silly audit   'foreground-child': [ '3.3.0' ],
+130 silly audit   fsevents: [ '2.3.3' ],
+130 silly audit   'function-bind': [ '1.1.2' ],
+130 silly audit   'function.prototype.name': [ '1.1.8' ],
+130 silly audit   'functions-have-names': [ '1.2.3' ],
+130 silly audit   'get-intrinsic': [ '1.2.7' ],
+130 silly audit   'get-proto': [ '1.0.1' ],
+130 silly audit   'get-symbol-description': [ '1.1.0' ],
+130 silly audit   'get-tsconfig': [ '4.10.0' ],
+130 silly audit   glob: [ '10.4.5' ],
+130 silly audit   globals: [ '14.0.0' ],
+130 silly audit   globalthis: [ '1.0.4' ],
+130 silly audit   gopd: [ '1.2.0' ],
+130 silly audit   'graceful-fs': [ '4.2.11' ],
+130 silly audit   graphemer: [ '1.4.0' ],
+130 silly audit   graphql: [ '16.10.0' ],
+130 silly audit   'graphql-tag': [ '2.12.6' ],
+130 silly audit   'has-bigints': [ '1.1.0' ],
+130 silly audit   'has-flag': [ '4.0.0' ],
+130 silly audit   'has-property-descriptors': [ '1.0.2' ],
+130 silly audit   'has-proto': [ '1.2.0' ],
+130 silly audit   'has-symbols': [ '1.1.0' ],
+130 silly audit   'has-tostringtag': [ '1.0.2' ],
+130 silly audit   hasown: [ '2.0.2' ],
+130 silly audit   'hoist-non-react-statics': [ '3.3.2' ],
+130 silly audit   ignore: [ '5.3.2' ],
+130 silly audit   'import-fresh': [ '3.3.1' ],
+130 silly audit   imurmurhash: [ '0.1.4' ],
+130 silly audit   'internal-slot': [ '1.1.0' ],
+130 silly audit   internmap: [ '2.0.3' ],
+130 silly audit   'is-array-buffer': [ '3.0.5' ],
+130 silly audit   'is-arrayish': [ '0.3.2' ],
+130 silly audit   'is-async-function': [ '2.1.1' ],
+130 silly audit   'is-bigint': [ '1.1.0' ],
+130 silly audit   'is-binary-path': [ '2.1.0' ],
+130 silly audit   'is-boolean-object': [ '1.2.2' ],
+130 silly audit   'is-bun-module': [ '1.3.0' ],
+130 silly audit   'is-callable': [ '1.2.7' ],
+130 silly audit   'is-core-module': [ '2.16.1' ],
+130 silly audit   'is-data-view': [ '1.0.2' ],
+130 silly audit   'is-date-object': [ '1.1.0' ],
+130 silly audit   'is-extglob': [ '2.1.1' ],
+130 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+130 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+130 silly audit   'is-generator-function': [ '1.1.0' ],
+130 silly audit   'is-glob': [ '4.0.3' ],
+130 silly audit   'is-map': [ '2.0.3' ],
+130 silly audit   'is-number': [ '7.0.0' ],
+130 silly audit   'is-number-object': [ '1.1.1' ],
+130 silly audit   'is-regex': [ '1.2.1' ],
+130 silly audit   'is-set': [ '2.0.3' ],
+130 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+130 silly audit   'is-string': [ '1.1.1' ],
+130 silly audit   'is-symbol': [ '1.1.1' ],
+130 silly audit   'is-typed-array': [ '1.1.15' ],
+130 silly audit   'is-weakmap': [ '2.0.2' ],
+130 silly audit   'is-weakref': [ '1.1.1' ],
+130 silly audit   'is-weakset': [ '2.0.4' ],
+130 silly audit   isarray: [ '2.0.5' ],
+130 silly audit   isexe: [ '2.0.0' ],
+130 silly audit   'iterator.prototype': [ '1.1.5' ],
+130 silly audit   jackspeak: [ '3.4.3' ],
+130 silly audit   jiti: [ '1.21.7' ],
+130 silly audit   'js-tokens': [ '4.0.0' ],
+130 silly audit   'js-yaml': [ '4.1.0' ],
+130 silly audit   'json-buffer': [ '3.0.1' ],
+130 silly audit   'json-schema-traverse': [ '0.4.1' ],
+130 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+130 silly audit   json5: [ '1.0.2' ],
+130 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+130 silly audit   'jwt-decode': [ '4.0.0' ],
+130 silly audit   keyv: [ '4.5.4' ],
+130 silly audit   'language-subtag-registry': [ '0.3.23' ],
+130 silly audit   'language-tags': [ '1.0.9' ],
+130 silly audit   levn: [ '0.4.1' ],
+130 silly audit   lilconfig: [ '3.1.3' ],
+130 silly audit   'lines-and-columns': [ '1.2.4' ],
+130 silly audit   'locate-path': [ '6.0.0' ],
+130 silly audit   lodash: [ '4.17.21' ],
+130 silly audit   'lodash.merge': [ '4.6.2' ],
+130 silly audit   'loose-envify': [ '1.4.0' ],
+130 silly audit   'lru-cache': [ '10.4.3' ],
+130 silly audit   'math-intrinsics': [ '1.1.0' ],
+130 silly audit   merge2: [ '1.4.1' ],
+130 silly audit   micromatch: [ '4.0.8' ],
+130 silly audit   minimist: [ '1.2.8' ],
+130 silly audit   minipass: [ '7.1.2' ],
+130 silly audit   ms: [ '2.1.3' ],
+130 silly audit   mz: [ '2.7.0' ],
+130 silly audit   nanoid: [ '3.3.8' ],
+130 silly audit   'natural-compare': [ '1.4.0' ],
+130 silly audit   next: [ '15.1.7' ],
+130 silly audit   postcss: [ '8.4.31', '8.5.3' ],
+130 silly audit   'normalize-path': [ '3.0.0' ],
+130 silly audit   'object-assign': [ '4.1.1' ],
+130 silly audit   'object-hash': [ '3.0.0' ],
+130 silly audit   'object-inspect': [ '1.13.4' ],
+130 silly audit   'object-keys': [ '1.1.1' ],
+130 silly audit   'object.assign': [ '4.1.7' ],
+130 silly audit   'object.entries': [ '1.1.8' ],
+130 silly audit   'object.fromentries': [ '2.0.8' ],
+130 silly audit   'object.groupby': [ '1.0.3' ],
+130 silly audit   'object.values': [ '1.2.1' ],
+130 silly audit   optimism: [ '0.18.1' ],
+130 silly audit   optionator: [ '0.9.4' ],
+130 silly audit   'own-keys': [ '1.0.1' ],
+130 silly audit   'p-limit': [ '3.1.0' ],
+130 silly audit   'p-locate': [ '5.0.0' ],
+130 silly audit   'package-json-from-dist': [ '1.0.1' ],
+130 silly audit   'parent-module': [ '1.0.1' ],
+130 silly audit   'path-exists': [ '4.0.0' ],
+130 silly audit   'path-key': [ '3.1.1' ],
+130 silly audit   'path-parse': [ '1.0.7' ],
+130 silly audit   'path-scurry': [ '1.11.1' ],
+130 silly audit   picocolors: [ '1.1.1' ],
+130 silly audit   picomatch: [ '2.3.1', '4.0.2' ],
+130 silly audit   pify: [ '2.3.0' ],
+130 silly audit   pirates: [ '4.0.6' ],
+130 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+130 silly audit   'postcss-import': [ '15.1.0' ],
+130 silly audit   'postcss-js': [ '4.0.1' ],
+130 silly audit   'postcss-load-config': [ '4.0.2' ],
+130 silly audit   'postcss-nested': [ '6.2.0' ],
+130 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+130 silly audit   'postcss-value-parser': [ '4.2.0' ],
+130 silly audit   'prelude-ls': [ '1.2.1' ],
+130 silly audit   'prop-types': [ '15.8.1' ],
+130 silly audit   punycode: [ '2.3.1' ],
+130 silly audit   'queue-microtask': [ '1.2.3' ],
+130 silly audit   react: [ '19.0.0' ],
+130 silly audit   'react-dom': [ '19.0.0' ],
+130 silly audit   'react-is': [ '16.13.1', '18.3.1' ],
+130 silly audit   'react-smooth': [ '4.0.4' ],
+130 silly audit   'react-transition-group': [ '4.4.5' ],
+130 silly audit   'read-cache': [ '1.0.0' ],
+130 silly audit   readdirp: [ '3.6.0' ],
+130 silly audit   recharts: [ '2.15.1' ],
+130 silly audit   'recharts-scale': [ '0.4.5' ],
+130 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+130 silly audit   'regenerator-runtime': [ '0.14.1' ],
+130 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+130 silly audit   rehackt: [ '0.1.0' ],
+130 silly audit   'resolve-from': [ '4.0.0' ],
+130 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+130 silly audit   reusify: [ '1.0.4' ],
+130 silly audit   'run-parallel': [ '1.2.0' ],
+130 silly audit   'safe-array-concat': [ '1.1.3' ],
+130 silly audit   'safe-push-apply': [ '1.0.0' ],
+130 silly audit   'safe-regex-test': [ '1.1.0' ],
+130 silly audit   scheduler: [ '0.25.0' ],
+130 silly audit   'set-function-length': [ '1.2.2' ],
+130 silly audit   'set-function-name': [ '2.0.2' ],
+130 silly audit   'set-proto': [ '1.0.0' ],
+130 silly audit   sharp: [ '0.33.5' ],
+130 silly audit   'shebang-command': [ '2.0.0' ],
+130 silly audit   'shebang-regex': [ '3.0.0' ],
+130 silly audit   'side-channel': [ '1.1.0' ],
+130 silly audit   'side-channel-list': [ '1.0.0' ],
+130 silly audit   'side-channel-map': [ '1.0.1' ],
+130 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+130 silly audit   'signal-exit': [ '4.1.0' ],
+130 silly audit   'simple-swizzle': [ '0.2.2' ],
+130 silly audit   'source-map-js': [ '1.2.1' ],
+130 silly audit   'stable-hash': [ '0.0.4' ],
+130 silly audit   streamsearch: [ '1.1.0' ],
+130 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+130 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+130 silly audit   'string.prototype.includes': [ '2.0.1' ],
+130 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+130 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+130 silly audit   'string.prototype.trim': [ '1.2.10' ],
+130 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+130 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+130 silly audit   'strip-bom': [ '3.0.0' ],
+130 silly audit   'strip-json-comments': [ '3.1.1' ],
+130 silly audit   'styled-jsx': [ '5.1.6' ],
+130 silly audit   sucrase: [ '3.35.0' ],
+130 silly audit   'supports-color': [ '7.2.0' ],
+130 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+130 silly audit   'symbol-observable': [ '4.0.0' ],
+130 silly audit   tailwindcss: [ '3.4.17' ],
+130 silly audit   tapable: [ '2.2.1' ],
+130 silly audit   thenify: [ '3.3.1' ],
+130 silly audit   'thenify-all': [ '1.6.0' ],
+130 silly audit   'tiny-invariant': [ '1.3.3' ],
+130 silly audit   tinyglobby: [ '0.2.12' ],
+130 silly audit   fdir: [ '6.4.3' ],
+130 silly audit   'to-regex-range': [ '5.0.1' ],
+130 silly audit   'ts-api-utils': [ '2.0.1' ],
+130 silly audit   'ts-interface-checker': [ '0.1.13' ],
+130 silly audit   'ts-invariant': [ '0.10.3' ],
+130 silly audit   'tsconfig-paths': [ '3.15.0' ],
+130 silly audit   tslib: [ '2.8.1' ],
+130 silly audit   'type-check': [ '0.4.0' ],
+130 silly audit   'typed-array-buffer': [ '1.0.3' ],
+130 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+130 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+130 silly audit   'typed-array-length': [ '1.0.7' ],
+130 silly audit   typescript: [ '5.7.3' ],
+130 silly audit   'unbox-primitive': [ '1.1.0' ],
+130 silly audit   'undici-types': [ '6.19.8' ],
+130 silly audit   'uri-js': [ '4.4.1' ],
+130 silly audit   'util-deprecate': [ '1.0.2' ],
+130 silly audit   'victory-vendor': [ '36.9.2' ],
+130 silly audit   which: [ '2.0.2' ],
+130 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+130 silly audit   'which-builtin-type': [ '1.2.1' ],
+130 silly audit   'which-collection': [ '1.0.2' ],
+130 silly audit   'which-typed-array': [ '1.1.18' ],
+130 silly audit   'word-wrap': [ '1.2.5' ],
+130 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+130 silly audit   yaml: [ '2.7.0' ],
+130 silly audit   'yocto-queue': [ '0.1.0' ],
+130 silly audit   'zen-observable': [ '0.8.15' ],
+130 silly audit   'zen-observable-ts': [ '1.2.5' ],
+130 silly audit   '@tsparticles/react': [ '3.0.0' ],
+130 silly audit   '@tsparticles/engine': [ '3.8.1' ],
+130 silly audit   '@tsparticles/slim': [ '3.8.1' ],
+130 silly audit   '@tsparticles/basic': [ '3.8.1' ],
+130 silly audit   '@tsparticles/interaction-external-attract': [ '3.8.1' ],
+130 silly audit   '@tsparticles/interaction-external-bounce': [ '3.8.1' ],
+130 silly audit   '@tsparticles/interaction-external-bubble': [ '3.8.1' ],
+130 silly audit   '@tsparticles/interaction-external-connect': [ '3.8.1' ],
+130 silly audit   '@tsparticles/interaction-external-grab': [ '3.8.1' ],
+130 silly audit   '@tsparticles/interaction-external-pause': [ '3.8.1' ],
+130 silly audit   '@tsparticles/interaction-external-push': [ '3.8.1' ],
+130 silly audit   '@tsparticles/interaction-external-remove': [ '3.8.1' ],
+130 silly audit   '@tsparticles/interaction-external-repulse': [ '3.8.1' ],
+130 silly audit   '@tsparticles/interaction-external-slow': [ '3.8.1' ],
+130 silly audit   '@tsparticles/interaction-particles-attract': [ '3.8.1' ],
+130 silly audit   '@tsparticles/interaction-particles-collisions': [ '3.8.1' ],
+130 silly audit   '@tsparticles/interaction-particles-links': [ '3.8.1' ],
+130 silly audit   '@tsparticles/move-parallax': [ '3.8.1' ],
+130 silly audit   '@tsparticles/plugin-easing-quad': [ '3.8.1' ],
+130 silly audit   '@tsparticles/shape-emoji': [ '3.8.1' ],
+130 silly audit   '@tsparticles/shape-image': [ '3.8.1' ],
+130 silly audit   '@tsparticles/shape-line': [ '3.8.1' ],
+130 silly audit   '@tsparticles/shape-polygon': [ '3.8.1' ],
+130 silly audit   '@tsparticles/shape-square': [ '3.8.1' ],
+130 silly audit   '@tsparticles/shape-star': [ '3.8.1' ],
+130 silly audit   '@tsparticles/updater-life': [ '3.8.1' ],
+130 silly audit   '@tsparticles/updater-rotate': [ '3.8.1' ],
+130 silly audit   '@tsparticles/updater-stroke-color': [ '3.8.1' ],
+130 silly audit   '@tsparticles/move-base': [ '3.8.1' ],
+130 silly audit   '@tsparticles/plugin-hex-color': [ '3.8.1' ],
+130 silly audit   '@tsparticles/plugin-hsl-color': [ '3.8.1' ],
+130 silly audit   '@tsparticles/plugin-rgb-color': [ '3.8.1' ],
+130 silly audit   '@tsparticles/shape-circle': [ '3.8.1' ],
+130 silly audit   '@tsparticles/updater-color': [ '3.8.1' ],
+130 silly audit   '@tsparticles/updater-opacity': [ '3.8.1' ],
+130 silly audit   '@tsparticles/updater-out-modes': [ '3.8.1' ],
+130 silly audit   '@tsparticles/updater-size': [ '3.8.1' ]
+130 silly audit }
+131 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\fsevents
+132 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\fsevents' ]
+133 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-win32-arm64-msvc
+134 silly reify mark deleted [
+134 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-win32-arm64-msvc'
+134 silly reify ]
+135 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-linux-x64-musl
+136 silly reify mark deleted [
+136 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-linux-x64-musl'
+136 silly reify ]
+137 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-linux-x64-gnu
+138 silly reify mark deleted [
+138 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-linux-x64-gnu'
+138 silly reify ]
+139 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-linux-arm64-musl
+140 silly reify mark deleted [
+140 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-linux-arm64-musl'
+140 silly reify ]
+141 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-linux-arm64-gnu
+142 silly reify mark deleted [
+142 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-linux-arm64-gnu'
+142 silly reify ]
+143 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-darwin-x64
+144 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-darwin-x64' ]
+145 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@next\swc-darwin-arm64
+146 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@next\\swc-darwin-arm64' ]
+147 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-win32-ia32
+148 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-win32-ia32' ]
+149 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-wasm32
+150 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-wasm32' ]
+151 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@emnapi\runtime
+152 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@emnapi\\runtime' ]
+153 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-linuxmusl-x64
+154 silly reify mark deleted [
+154 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-linuxmusl-x64'
+154 silly reify ]
+155 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-linuxmusl-arm64
+156 silly reify mark deleted [
+156 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-linuxmusl-arm64'
+156 silly reify ]
+157 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-linux-x64
+158 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-linux-x64' ]
+159 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-linux-s390x
+160 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-linux-s390x' ]
+161 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-linux-arm64
+162 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-linux-arm64' ]
+163 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-linux-arm
+164 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-linux-arm' ]
+165 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-linuxmusl-x64
+166 silly reify mark deleted [
+166 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+166 silly reify ]
+167 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-linuxmusl-arm64
+168 silly reify mark deleted [
+168 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+168 silly reify ]
+169 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-linux-x64
+170 silly reify mark deleted [
+170 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-linux-x64'
+170 silly reify ]
+171 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-linux-s390x
+172 silly reify mark deleted [
+172 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-linux-s390x'
+172 silly reify ]
+173 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-linux-arm64
+174 silly reify mark deleted [
+174 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-linux-arm64'
+174 silly reify ]
+175 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-linux-arm
+176 silly reify mark deleted [
+176 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-linux-arm'
+176 silly reify ]
+177 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-darwin-x64
+178 silly reify mark deleted [
+178 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-darwin-x64'
+178 silly reify ]
+179 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-libvips-darwin-arm64
+180 silly reify mark deleted [
+180 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+180 silly reify ]
+181 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-darwin-x64
+182 silly reify mark deleted [ 'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-darwin-x64' ]
+183 verbose reify failed optional dependency C:\Users\Zahra\graphql3\node_modules\@img\sharp-darwin-arm64
+184 silly reify mark deleted [
+184 silly reify   'C:\\Users\\Zahra\\graphql3\\node_modules\\@img\\sharp-darwin-arm64'
+184 silly reify ]
+185 silly tarball no local data for @tsparticles/react@https://registry.npmjs.org/@tsparticles/react/-/react-3.0.0.tgz. Extracting by manifest.
+186 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 313ms
+187 silly audit report {}
+188 http fetch GET 200 https://registry.npmjs.org/@tsparticles/react/-/react-3.0.0.tgz 994ms (cache miss)
+189 info run @tsparticles/engine@3.8.1 install node_modules/@tsparticles/engine node ./scripts/install.js
+190 info run @tsparticles/engine@3.8.1 install { code: 0, signal: null }
+191 silly ADD node_modules/@tsparticles/updater-size
+192 silly ADD node_modules/@tsparticles/updater-out-modes
+193 silly ADD node_modules/@tsparticles/updater-opacity
+194 silly ADD node_modules/@tsparticles/updater-color
+195 silly ADD node_modules/@tsparticles/shape-circle
+196 silly ADD node_modules/@tsparticles/plugin-rgb-color
+197 silly ADD node_modules/@tsparticles/plugin-hsl-color
+198 silly ADD node_modules/@tsparticles/plugin-hex-color
+199 silly ADD node_modules/@tsparticles/move-base
+200 silly ADD node_modules/@tsparticles/updater-stroke-color
+201 silly ADD node_modules/@tsparticles/updater-rotate
+202 silly ADD node_modules/@tsparticles/updater-life
+203 silly ADD node_modules/@tsparticles/shape-star
+204 silly ADD node_modules/@tsparticles/shape-square
+205 silly ADD node_modules/@tsparticles/shape-polygon
+206 silly ADD node_modules/@tsparticles/shape-line
+207 silly ADD node_modules/@tsparticles/shape-image
+208 silly ADD node_modules/@tsparticles/shape-emoji
+209 silly ADD node_modules/@tsparticles/plugin-easing-quad
+210 silly ADD node_modules/@tsparticles/move-parallax
+211 silly ADD node_modules/@tsparticles/interaction-particles-links
+212 silly ADD node_modules/@tsparticles/interaction-particles-collisions
+213 silly ADD node_modules/@tsparticles/interaction-particles-attract
+214 silly ADD node_modules/@tsparticles/interaction-external-slow
+215 silly ADD node_modules/@tsparticles/interaction-external-repulse
+216 silly ADD node_modules/@tsparticles/interaction-external-remove
+217 silly ADD node_modules/@tsparticles/interaction-external-push
+218 silly ADD node_modules/@tsparticles/interaction-external-pause
+219 silly ADD node_modules/@tsparticles/interaction-external-grab
+220 silly ADD node_modules/@tsparticles/interaction-external-connect
+221 silly ADD node_modules/@tsparticles/interaction-external-bubble
+222 silly ADD node_modules/@tsparticles/interaction-external-bounce
+223 silly ADD node_modules/@tsparticles/interaction-external-attract
+224 silly ADD node_modules/@tsparticles/basic
+225 silly ADD node_modules/@tsparticles/slim
+226 silly ADD node_modules/@tsparticles/engine
+227 silly ADD node_modules/@tsparticles/react
+228 silly ADD
+229 silly ADD
+230 silly ADD
+231 silly ADD
+232 silly ADD
+233 silly ADD
+234 silly ADD
+235 silly ADD
+236 silly ADD
+237 silly ADD
+238 silly ADD
+239 silly ADD
+240 silly ADD
+241 silly ADD
+242 silly ADD
+243 silly ADD
+244 silly ADD
+245 silly ADD
+246 silly ADD
+247 silly ADD
+248 silly ADD
+249 silly ADD
+250 silly ADD
+251 silly ADD
+252 silly ADD
+253 silly ADD
+254 silly ADD
+255 verbose exit 0
+256 info ok
