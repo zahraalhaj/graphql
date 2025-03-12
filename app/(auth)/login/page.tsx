@@ -9,11 +9,11 @@ export default function LoginPage() {
   const router = useRouter();
   const [identifier, setIdentifier] = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setError('');
+    setErrorMessage('');
     
     try {
       const credentials = btoa(`${identifier}:${password}`);
@@ -24,10 +24,10 @@ export default function LoginPage() {
         console.log('Token stored:', token);
         router.replace('/dashboard');
       } else {
-        setError('Invalid token received');
+        setErrorMessage('Invalid token received');
       }
     } catch (error) {
-      setError('Invalid credentials');
+      setErrorMessage('Invalid credentials');
     }
   };
 
@@ -53,9 +53,9 @@ export default function LoginPage() {
                 Welcome Back
               </h2>
               
-              {error && (
+              {errorMessage && (
                 <div className="bg-red-500/10 backdrop-blur-sm text-red-200 p-4 rounded-xl mb-6 border border-red-500/20">
-                  {error}
+                  {errorMessage}
                 </div>
               )}
               

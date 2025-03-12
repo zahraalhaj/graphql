@@ -8,16 +8,6 @@ const nextConfig: NextConfig = {
   },
   basePath: "/graphql", 
   assetPrefix: "/graphql",
-
-  async redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/login",
-        permanent: true,
-      },
-    ];
-  },
 };
 
 export default nextConfig;
