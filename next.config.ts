@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, 
   },
-  basePath: "graphql", 
-  assetPrefix: "graphql",
+  basePath: "/graphql", 
+  assetPrefix: "/graphql",
 
   async redirects() {
     return [
