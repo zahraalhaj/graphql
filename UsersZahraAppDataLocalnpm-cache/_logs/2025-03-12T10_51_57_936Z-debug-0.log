@@ -5,11 +5,11 @@
 4 silly config:load:file:C:\Users\Zahra\graphql3\.npmrc
 5 silly config:load:file:C:\Users\Zahra\.npmrc
 6 silly config:load:file:C:\Users\Zahra\AppData\Roaming\npm\etc\npmrc
-7 verbose title npm run deploy
-8 verbose argv "run" "deploy"
-9 verbose logfile logs-max:10 dir:C:\Users\Zahra\graphql3\UsersZahraAppDataLocalnpm-cache\_logs\2025-03-12T09_33_22_546Z-
-10 verbose logfile C:\Users\Zahra\graphql3\UsersZahraAppDataLocalnpm-cache\_logs\2025-03-12T09_33_22_546Z-debug-0.log
+7 verbose title npm run build
+8 verbose argv "run" "build"
+9 verbose logfile logs-max:10 dir:C:\Users\Zahra\graphql3\UsersZahraAppDataLocalnpm-cache\_logs\2025-03-12T10_51_57_936Z-
+10 verbose logfile C:\Users\Zahra\graphql3\UsersZahraAppDataLocalnpm-cache\_logs\2025-03-12T10_51_57_936Z-debug-0.log
 11 silly logfile start cleaning logs, removing 1 files
 12 silly logfile done cleaning log files
-13 verbose exit 1
-14 verbose code 1
+13 verbose exit 0
+14 info ok

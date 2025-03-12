@@ -1,0 +1,38 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v20.15.0
+3 silly config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config:load:file:C:\Users\Zahra\graphql3\.npmrc
+5 silly config:load:file:C:\Users\Zahra\.npmrc
+6 silly config:load:file:C:\Users\Zahra\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm run start
+8 verbose argv "run" "start"
+9 verbose logfile logs-max:10 dir:C:\Users\Zahra\graphql3\UsersZahraAppDataLocalnpm-cache\_logs\2025-03-12T10_52_50_807Z-
+10 verbose logfile C:\Users\Zahra\graphql3\UsersZahraAppDataLocalnpm-cache\_logs\2025-03-12T10_52_50_807Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose stack Error: Missing script: "start"
+13 verbose stack
+13 verbose stack Did you mean one of these?
+13 verbose stack   npm star # Mark your favorite packages
+13 verbose stack   npm stars # View packages marked as favorites
+13 verbose stack
+13 verbose stack To see a list of scripts, run:
+13 verbose stack   npm run
+13 verbose stack     at RunScript.run (C:\Program Files\nodejs\node_modules\npm\lib\commands\run-script.js:79:13)
+13 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:74:5)
+14 verbose cwd C:\Users\Zahra\graphql3
+15 verbose Windows_NT 10.0.22631
+16 verbose node v20.15.0
+17 verbose npm  v10.7.0
+18 error Missing script: "start"
+18 error
+18 error Did you mean one of these?
+18 error   npm star # Mark your favorite packages
+18 error   npm stars # View packages marked as favorites
+18 error
+18 error To see a list of scripts, run:
+18 error   npm run
+19 verbose exit 1
+20 verbose code 1
+21 error A complete log of this run can be found in: C:\Users\Zahra\graphql3\UsersZahraAppDataLocalnpm-cache\_logs\2025-03-12T10_52_50_807Z-debug-0.log

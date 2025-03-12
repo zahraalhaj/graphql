@@ -6,8 +6,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, 
   },
-  basePath: "/graphql", 
-  assetPrefix: "/graphql",
 };
 
 export default nextConfig;
